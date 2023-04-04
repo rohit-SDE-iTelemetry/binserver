@@ -1,0 +1,35 @@
+#!/bin/sh
+
+# PROVIDE: binsrv
+# REQUIRE: LOGIN
+# KEYWORD: shutdown
+
+#
+# Add the following lines to /etc/rc.conf to enable binsrv:
+#
+# binsrv_enable="YES"
+#
+
+. /etc/rc.subr
+
+name=binsrv
+rcvar=binsrv_enable
+
+binsrv_enable=${binsrv_enable:="NO"}
+binsrv_user=${binsrv_user:="binsrv"}
+binsrv_home=${binsrv_home:="/usr/home/binsrv"}
+binsrv_config=${binsrv_config:="config.ini"}
+
+command="/usr/local/bin/python3.9"
+pidfile="/var/run/binsrv.pid"
+start_cmd="binsrv_start"
+extra_commands="reload"
+
+binsrv_start()
+{
+	cd $binsrv_home
+	daemon -f -p $pidfile -u $binsrv_user $command src/main.py -c $binsrv_config
+}
+
+load_rc_config $name
+run_rc_command "$1"

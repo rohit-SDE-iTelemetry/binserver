@@ -1,0 +1,83 @@
+[DEFAULT]
+
+;----------------------------------------------------------------------------------;
+; Server options.                                                                  ;
+;----------------------------------------------------------------------------------;
+
+; Listen IP. Use 0.0.0.0 to listen on all interfaces.
+BindIP = 0.0.0.0
+
+; When port is set to 0, the server will not listen for unencrypted connections.
+Port = 6005
+
+; Encryption settings. When port is set to 0, the server will not listen for
+; encrypted connections.
+TLSPort = 0
+TLSCert = /etc/ssl/binsrv.crt
+TLSCertKey = /etcl/ssl/private/binsrv.key
+
+; Log to syslog, only works in UNIX environments.
+Syslog = yes
+
+; Alternative log
+Altlog = no
+AltlogDirectory = /usr/home/binsrv/logs
+
+; Valid values: s, m, h, d, w0-w6, midnight
+AltlogRotatePeriod = d
+AltlogRotateKeep = 15
+
+;----------------------------------------------------------------------------------;
+; The following options are defaults and can be overriden by a KIDL section below. ;
+;----------------------------------------------------------------------------------;
+
+; Valid values: any or the IMEI of the KIDL. For the latter, this must match with the IMEI in the ID request.
+IMEI = any
+
+; Directory where the measurement data will be stored, it must exist.
+DataDirectory = /usr/home/binsrv/data
+
+; Valid values: adata
+DataFormat = adata
+
+; Write to a new file for each transmission
+DataNewFile = no
+
+; When set, measurement data older than the last stored timestamp will be ignored.
+DataIgnoreOld = yes
+
+; When set, info records will be written to the data file.
+DataWriteInfoRecords = no
+
+; Directory which contain firmware files, it must exist.
+FirmwareDirectory = /usr/home/binsrv/firmware
+
+; The server will start a firmware upload when requested by KIDL and the current KIDL firmware version do not match.
+; The correct file must be present in the FirmwareDirectory.
+FirmwareVersion = 01000013
+
+; Directory which contain conf files with valid KIDL commands, it must exist.
+ConfDirectory = /usr/home/binsrv/conf
+
+;----------------------------------------------------------------------------------;
+; The following options are KIDL specific.                                         ;
+;----------------------------------------------------------------------------------;
+
+;[KIDLBP01]
+
+; KIDLBP01 can only connect with this IMEI code.
+;IMEI = 865291046144142
+
+; Write all measurement data, even old data which may result in double data.
+;DataIgnoreOld = no
+
+; Uncomment to enable KIDL.
+;[KIDLBP02]
+;[KIDLBP03]
+;[KIDLBP04]
+;[KIDLBP05]
+;[KIDLBP06]
+;[KIDLBP07]
+;[KIDLBP08]
+;[KIDLBP09]
+;[KIDLBP10]

@@ -1,0 +1,52 @@
+KIDL SERVER
+
+---------------------
+Installing on FreeBSD
+---------------------
+
+Install dependencies:
+
+# pkg add python37 python37-aiofiles py37-crcmod
+
+Run:
+
+# python3.7 src/main.py -c <conf.ini>
+
+--------------------------------
+Installing on GNU/Linux (Debian)
+--------------------------------
+
+Install dependencies:
+
+# apt install python3 python3-aiofiles python3-crcmod
+
+Run:
+
+# python3 src/main.py -c <conf.ini>
+
+---------------------
+Installing on Windows
+---------------------
+
+Install Python 3.7 or later.
+
+Install dependencies:
+
+# pip install aiofiles crcmod
+
+Run:
+
+# python src\main.py -c <conf.ini>
+
+Install as Windows Service:
+
+We recommend using the Non-Sucking Service Manager from https://nssm.cc
+Make sure the use correct paths below, and run as administrator in a Command Prompt:
+
+# nssm.exe install "KIDLBinaryServer" "C:\Users\Foobar\AppData\Local\Programs\Python\Python39\python.exe" "C:\binsrv\server\src\main.py -c C:\binsrv\server\config.ini"
+
+This will add a service that automatically starts at boot. To manually start, stop or uninstall, run:
+
+# nssm.exe start "KIDLBinaryServer"
+# nssm.exe stop "KIDLBinaryServer"
+# nssm.exe uninstall "KIDLBinaryServer"
