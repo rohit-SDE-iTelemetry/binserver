@@ -1,0 +1,103 @@
+deviceid AAXI156
+apn airtelgprs.com
+apnusername 
+apnpassword 
+firmwareresume 1
+ssl 0
+sslcheckhost 0
+sdi12 0
+sdi12pace 1
+sdi12edelay 0
+enableanalogchannels 1
+enableextanalogchannels 0
+enablebatvoltage 1
+enablepulsecounter 0
+sensorspowerupdelay 10
+sensorspowerupmsdelay 10
+ntpserver in.pool.ntp.org
+ntpport 123
+timezone 330
+timesyncmethod 0
+conversionfactor 1 1.000000
+conversionfactor 2 1.000000
+conversionoffset 1 199.92
+conversionoffset 2 50
+conversionunits 1 meter
+conversionunits 2 meter
+nravermeasure 5
+pulseconversionfactor 1.000000
+pulseconversionoffset 0
+pulseconversionunits Pulses
+measinterval 15
+meassampletime 00 00
+transinterval 1
+transsampletime 00 00
+transmethod 7
+ntpsyncinterval 1
+batlowthresholdsystem 3.000000
+batlowthresholdgsm 3.250000
+ftpserver 
+ftpserverport 21
+ftpserverusername user
+ftpserverpassword password
+ftpprefix 
+ftpservertimeout 120
+ftpserverretries 2
+ftpadd 0
+socketserver 
+socketserverport 1
+socketservertimeout 120
+socketserverretries 2
+binsocketserver 13.233.121.4
+binsocketserverport 6005
+binsocketservertimeout 120
+binsocketserverretries 5
+binsocketprotocoldebug 0
+maxmeasdatablocksize 250
+remotecfinterval 1
+coapserver 
+coapserverport 5683
+coaplocalport 0
+coapheader 40022890BB726571756573742F757269FF
+coapretries 5
+coapsenttimeout 20
+coapacktimeout 5
+mqttserver 
+mqttserverport 1
+mqttserverusername 
+mqttserverpassword 
+mqttservertimeout 120
+mqttserverretries 2
+stopstartmeasurement 1
+echoon 0
+sendinforecords 1
+prompt \x1b
+loranjm 0
+loraappeui 70B3D57ED0013A7B
+loraappkey A7E8284E3EE732976ECADC832E668171
+loradaddr 26012B86
+loraappskey 3BE8D11F4BBBAFD17A245710BD02E44D
+loranwkid 00000000
+loranwkskey A469E9EB9E498767F88CB3CDAE1F259E
+loraport 1
+loraconfirmed 0
+loraretries 0
+loraadaptive 1
+loraclass A
+loradcs 1
+loradr 0
+lorapnm 1
+loratxp 0
+lorarx1dl 5000
+lorarx2dl 6000
+loraband 5
+alwayson 1
+gsmrecyclecounter 1
+ratnwscanseq 01
+ratnwscanmode 1
+ratiotopmode 2
+ratgsmband f
+ratcatm1band 000080084
+ratcatnb1band 80084
+maxgsmconnectiontime 10
+psm 1

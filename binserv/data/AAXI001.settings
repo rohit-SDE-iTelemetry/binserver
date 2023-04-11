@@ -1,34 +1,35 @@
-deviceid AAXI0001
-apn 
+deviceid AAXI001
+apn airtelgprs.com
 apnusername 
 apnpassword 
 firmwareresume 1
 ssl 0
 sslcheckhost 0
+sdi12addressadd 0 C 0 9
 sdi12 0
 sdi12pace 1
 sdi12edelay 0
-enableanalogchannels 3
+enableanalogchannels 1
 enableextanalogchannels 0
 enablebatvoltage 1
 enablepulsecounter 0
-sensorspowerupdelay 1
+sensorspowerupdelay 10
 sensorspowerupmsdelay 0
-ntpserver time.windows.com
+ntpserver in.pool.ntp.org
 ntpport 123
-timezone 60
+timezone 330
 timesyncmethod 0
 conversionfactor 1 1.000000
 conversionfactor 2 1.000000
-conversionoffset 1 0.0000
+conversionoffset 1 199.92
 conversionoffset 2 0.0000
-conversionunits 1 Volt
+conversionunits 1 meter
 conversionunits 2 Volt
-nravermeasure 1
+nravermeasure 5
 pulseconversionfactor 1.000000
 pulseconversionoffset 0
-pulseconversionunits Pulses
-measinterval 60
+pulseconversionunits ARG
+measinterval 2
 meassampletime 00 00
 transinterval 1
 transsampletime 00 00
@@ -36,23 +37,23 @@ transmethod 7
 ntpsyncinterval 1
 batlowthresholdsystem 3.000000
 batlowthresholdgsm 3.250000
-ftpserver ftpserver
-ftpserverport 22
+ftpserver 
+ftpserverport 21
 ftpserverusername user
 ftpserverpassword password
 ftpprefix 
 ftpservertimeout 120
 ftpserverretries 2
 ftpadd 0
-socketserver socketserver
+socketserver 
 socketserverport 1
 socketservertimeout 120
 socketserverretries 2
-binsocketserver 43.205.94.63
+binsocketserver 13.233.121.4
 binsocketserverport 6005
-binsocketservertimeout 15
+binsocketservertimeout 180
 binsocketserverretries 5
-binsocketprotocoldebug 0
+binsocketprotocoldebug 1
 maxmeasdatablocksize 250
 remotecfinterval 1
 coapserver 
@@ -63,7 +64,7 @@ coapretries 5
 coapsenttimeout 20
 coapacktimeout 5
 mqttserver 
-mqttserverport 8883
+mqttserverport 1
 mqttserverusername 
 mqttserverpassword 
 mqttservertimeout 120
@@ -91,11 +92,11 @@ loratxp 0
 lorarx1dl 5000
 lorarx2dl 6000
 loraband 5
-alwayson 0
-gsmrecyclecounter 1440
-ratnwscanseq 02
-ratnwscanmode 3
-ratiotopmode 0
+alwayson 1
+gsmrecyclecounter 1
+ratnwscanseq 01
+ratnwscanmode 1
+ratiotopmode 2
 ratgsmband f
 ratcatm1band 000080084
 ratcatnb1band 80084

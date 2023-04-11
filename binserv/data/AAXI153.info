@@ -8,9 +8,9 @@ Remote: git@git.delta-design.be:kidl
 Build Date/Time: Fri Feb 10 09:45:23 2023
 Wakeup from POWER UP
 Booted from first bank
-Device ID: AAXI0001
-Time: Tuesday, February 14, 2023 14:00:14
-APN: 
+Device ID: AAXI153
+Time: Monday, April 10, 2023 18:16:06
+APN: airtelgprs.com
 APN Username: 
 APN Password: 
 Firmware upgrade resume: enabled
@@ -20,8 +20,8 @@ Connected sdi12 devices:
 SDI12 reading disabled
 SDI12 pace: 1
 SDI12 edelay: 0
-Analog channel 1 enabled
-Analog channel 2 enabled
+Analog channel 1 disabled
+Analog channel 2 disabled
 External Analog channel 1 disabled
 External Analog channel 2 disabled
 External Analog channel 3 disabled
@@ -32,25 +32,25 @@ External Analog channel 7 disabled
 External Analog channel 8 disabled
 Bat voltage measurement enabled
 Pulse counter disabled
-Powerup delay sensors: 1
+Powerup delay sensors: 10
 Powerup msdelay sensors: 0
-NTP Server: time.windows.com
+NTP Server: in.pool.ntp.org
 NTP Port: 123
-Timezone: 60
+Timezone: 330
 Time sync method: 0
 Analog Channel Conversion Factors: 1.000000 1.000000
 Analog Channel Conversion Offsets: 0.0000 0.0000
-Analog Channel Conversion Units: Volt Volt
-Analog Channel Averaging: 1
+Analog Channel Conversion Units: meter Volt
+Analog Channel Averaging: 5
 Pulse Conversion Factor: 1.000000
 Pulse Conversion Offset: 0
-Pulse Conversion Units: Pulses
-Voltages used for calibration: 0.000000 5.000000
-ADC values of calibration point 1: 53103 53113
-ADC values of calibration point 2: 10777 10898
-ADC calculated calibrated gains: -0.000118 -0.000118
-ADC calculated calibrated offsets: 6.273095 6.290773
-Measurement Interval: 60 minutes
+Pulse Conversion Units: mm
+Voltages used for calibration: 0.000000 4.096000
+ADC values of calibration point 1: 53184 53161
+ADC values of calibration point 2: 16473 16407
+ADC calculated calibrated gains: -0.000112 -0.000111
+ADC calculated calibrated offsets: 5.933962 5.924457
+Measurement Interval: 5 minutes
 Measurement SampleTime: 00:00
 Transmission Interval: 1 measurement intervals
 Transmission SampleTime: 00:00
@@ -58,21 +58,21 @@ Transmission Method: 7: SOCKET Server (bin format)
 Time sync interval: 1 send intervals
 Low battery threshold System: 3.000000 Volt
 Low battery threshold GSM: 3.250000 Volt
-FTP Server: ftpserver
-FTP Port: 22
+FTP Server: 
+FTP Port: 21
 FTP Server Username: user
 FTP Server Password: password
 FTP Prefix: 
 FTP Server Timeout: 120 seconds
 FTP Server Number of Retries: 2
 FTP Add: 0
-SOCKET Server: socketserver
+SOCKET Server: 
 SOCKET Port: 1
 SOCKET Server Timeout: 120 seconds
 SOCKET Server Number of Retries: 2
-BINARY SOCKET Server: 43.205.94.63
+BINARY SOCKET Server: 13.233.121.4
 BINARY SOCKET Port: 6005
-BINARY SOCKET Server Timeout: 15 seconds
+BINARY SOCKET Server Timeout: 120 seconds
 BINARY SOCKET Server Number of Retries: 5
 BINARY SOCKET Protocol Debug Output: 0
 COAP Server: 
@@ -85,7 +85,7 @@ COAP ACK timeout: 5 seconds
 Max measData block to send: 250
 Conf and firmware check interval: 1 send intervals
 MQTT Server: 
-MQTT Port: 8883
+MQTT Port: 1
 MQTT Server Username: 
 MQTT Server Password: 
 MQTT Server Timeout: 120 seconds
@@ -113,18 +113,18 @@ LoRa Transmit Power: 0
 LoRa Delay of received window 1: 5000
 LoRa Delay of received window 2: 6000
 LoRa Band: 5
-GSM IMSI: 206108602065500
-GSM ICCID: 89320261542006599780
-GSM IMEI: 867604051854249
-GSM Firmware: BG96MAR03A06M1G
+GSM IMSI: 206108601802668
+GSM ICCID: 89320261142004316530
+GSM IMEI: 864351051669986
+GSM Firmware: BG95M3LAR02A03
 GSM Operator: "Orange B",8
 GSM RSSI: 99
 GSM BER: 99
 Always On: false
 GSM Recycle Counter: 1440
-RAT nwscanseq: 02
-RAT nwscanmode: 3
-RAT iotopmode: 0
+RAT nwscanseq: 01
+RAT nwscanmode: 1
+RAT iotopmode: 2
 RAT GSM band: f
 RAT LTE CAT M1  band: 000080084
 RAT LTE CAT NB1 band: 80084

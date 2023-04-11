@@ -1,0 +1,136 @@
+
+Tag: <not tagged>
+Version code: 0x01000218
+Branch: master
+Commit: df2ec1fda55299c24421e0139c1e71684034c9d1 (dirty)
+Path: Firmware/KIDL/Debug/
+Remote: git@git.delta-design.be:kidl
+Build Date/Time: Fri Feb 10 09:45:23 2023
+Wakeup after watchdog reset
+Booted from second bank
+Device ID: AAXI165
+Time: Monday, April 10, 2023 19:51:55
+APN: airtelgprs.com
+APN Username: 
+APN Password: 
+Firmware upgrade resume: enabled
+SSL: disabled
+SSLCHECKHOST: disabled
+Connected sdi12 devices:
+SDI12 reading disabled
+SDI12 pace: 1
+SDI12 edelay: 0
+Analog channel 1 enabled
+Analog channel 2 disabled
+External Analog channel 1 disabled
+External Analog channel 2 disabled
+External Analog channel 3 disabled
+External Analog channel 4 disabled
+External Analog channel 5 disabled
+External Analog channel 6 disabled
+External Analog channel 7 disabled
+External Analog channel 8 disabled
+Bat voltage measurement enabled
+Pulse counter disabled
+Powerup delay sensors: 10
+Powerup msdelay sensors: 0
+NTP Server: in.pool.ntp.org
+NTP Port: 123
+Timezone: 330
+Time sync method: 0
+Analog Channel Conversion Factors: 1.000000 1.000000
+Analog Channel Conversion Offsets: 0.0000 0.0000
+Analog Channel Conversion Units: meter Volt
+Analog Channel Averaging: 5
+Pulse Conversion Factor: 1.000000
+Pulse Conversion Offset: 0
+Pulse Conversion Units: Pulses
+Voltages used for calibration: 0.000000 4.096000
+ADC values of calibration point 1: 53323 53291
+ADC values of calibration point 2: 16659 16687
+ADC calculated calibrated gains: -0.000112 -0.000112
+ADC calculated calibrated offsets: 5.957098 5.963281
+Measurement Interval: 5 minutes
+Measurement SampleTime: 00:00
+Transmission Interval: 1 measurement intervals
+Transmission SampleTime: 00:00
+Transmission Method: 7: SOCKET Server (bin format)
+Time sync interval: 1 send intervals
+Low battery threshold System: 3.000000 Volt
+Low battery threshold GSM: 3.250000 Volt
+FTP Server: 
+FTP Port: 21
+FTP Server Username: user
+FTP Server Password: password
+FTP Prefix: 
+FTP Server Timeout: 120 seconds
+FTP Server Number of Retries: 2
+FTP Add: 0
+SOCKET Server: 
+SOCKET Port: 1
+SOCKET Server Timeout: 120 seconds
+SOCKET Server Number of Retries: 2
+BINARY SOCKET Server: 13.233.121.4
+BINARY SOCKET Port: 6005
+BINARY SOCKET Server Timeout: 120 seconds
+BINARY SOCKET Server Number of Retries: 5
+BINARY SOCKET Protocol Debug Output: 0
+COAP Server: 
+COAP Server Port: 5683
+COAP Local Port: 0
+COAP Header: 40022890BB726571756573742F757269FF
+COAP Number of Retries: 5
+COAP Sent timeout: 20 seconds
+COAP ACK timeout: 5 seconds
+Max measData block to send: 250
+Conf and firmware check interval: 1 send intervals
+MQTT Server: 
+MQTT Port: 1
+MQTT Server Username: 
+MQTT Server Password: 
+MQTT Server Timeout: 120 seconds
+MQTT Server Number of Retries: 2
+Measurements active when USB connected
+Echo off
+Sending info records: 1
+LoRa Network Join Mode: 0: ABP
+LoRa Application Identifier: 70B3D57ED0013A7B
+LoRa Application Key: A7E8284E3EE732976ECADC832E668171
+LoRa Device address: 26012B86
+LoRa Application Session Key: 3BE8D11F4BBBAFD17A245710BD02E44D
+LoRa Network Session Key: A469E9EB9E498767F88CB3CDAE1F259E
+LoRa Port: 1
+LoRa DEUI: XXXXXXXXXXXXXXXX
+LoRa Network ID: 00000000
+LoRa Confirmed: 0
+LoRa Number of Retries: 0
+LoRa Adaptive: 1
+LoRa Class: A
+LoRa Duty Cycle Setting: 1
+LoRa Data Rate: 0
+LoRa Public Network Mode: 1
+LoRa Transmit Power: 0
+LoRa Delay of received window 1: 5000
+LoRa Delay of received window 2: 6000
+LoRa Band: 5
+GSM IMSI: 206108601802668
+GSM ICCID: 89320261142004316530
+GSM IMEI: 864351051673905
+GSM Firmware: BG95M3LAR02A03
+GSM Operator: "Orange B",8
+GSM RSSI: 99
+GSM BER: 99
+Always On: true
+GSM Recycle Counter: 1
+RAT nwscanseq: 01
+RAT nwscanmode: 1
+RAT iotopmode: 2
+RAT GSM band: f
+RAT LTE CAT M1  band: 000080084
+RAT LTE CAT NB1 band: 80084
+SigFox ID: XXXXXXXX
+SigFox PAC: XXXXXXXXXXXXXXXX
+Maximum GSM connection time: 10 minutes
+PSM mode: 1
+r3212: 00000110
+t3324: 00000001
